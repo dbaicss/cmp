@@ -18,9 +18,8 @@ func BuildExistJob(jobname string)  {
 	client := &http.Client{Transport:tr}
 
 	//初始化jenkins
-	//jenkins,err := gojenkins.CreateJenkins(nil, "http://jenkins.icarbonx.cn/", "xuyangbing", "1234qwer").Init()
 
-	jenkins,err := gojenkins.CreateJenkins(client, "https://jenkins.dev.icarbonx.cn", "admin", "2124dc532fe24e7186bb10e911096174").Init()
+	jenkins,err := gojenkins.CreateJenkins(client, "https://xxxx.cn", "admin", "xxxxxx").Init()
 
 	if err != nil {
 		panic("Init Jenkins wrong...")
