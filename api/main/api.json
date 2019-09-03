@@ -11,8 +11,8 @@
   "apiPort":8000,
   "apiReadTimeout":5000,
   "apiWriteTimeout":5000,
-  "kubeconfig":"/Users/xuyangbing/.kube/config",
-  "secretId":"AKIDPdGhz3zRmrhMnzEiDSSDqHVUDj02wjSw",
-  "secretKey":"OXTChz6zf7QXP5e8NTP8oHbleKo260f6",
-  "region":"ap-guangzhou"
+  "kubeconfig":"/Users/config",
+  "secretId":"",
+  "secretKey":"",
+  "region":""
 }
